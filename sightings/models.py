@@ -1,5 +1,5 @@
 from django.db import models
 
-class squirrel(models.Model):
+class Squirrel(models.Model):
 
     pass
