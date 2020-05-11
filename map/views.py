@@ -1,7 +1,9 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from sightings.models import sightings
 
 def index(request):
-    return HttpResponse('Map')
+    all_sightings = sightings.objects.all()[:100]
+    context = {'all_sightings': all_sightings}
+    return render(request, 'map/map.html', context)
 
 # Create your views here.
