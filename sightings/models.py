@@ -5,7 +5,7 @@ class Sighting(models.Model):
 
     latitude = models.DecimalField('Latitude',default = None,max_digits =50,decimal_places = 10)
     longitude = models.DecimalField('Longitude',default = None,max_digits =50,decimal_places = 10)
-    unique_id = models.CharField('ID',max_length = 50,default = None)
+    unique_squirrel_id = models.CharField('ID',max_length = 50,default = None)
     CHOICE1 = {('AM','AM'),('PM','PM'),}
     shift = models.CharField('Shift',max_length = 50,default = None,choices = CHOICE1)
     date = models.DateField('Date',max_length = 50,default = None,)
