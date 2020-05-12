@@ -1,6 +1,6 @@
 from django.db import models
 
-class Squirrel(models.Model):
+class Sighting(models.Model):
 
 
     latitude = models.DecimalField('Latitude',default = None,max_digits =50,decimal_places = 10)

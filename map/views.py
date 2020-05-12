@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from sightings.models import Squirrel
+from sightings.models import Sighting
 
 def index(request):
     all_sightings = Squirrel.objects.all()[:100]
