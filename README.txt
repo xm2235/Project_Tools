@@ -36,4 +36,7 @@ Website Links:
 
 4) Admin: http://34.86.20.160/admin/      username: ToolsG10           password: 12345
 
-5) App server: https://tfa-feb19.uk.r.appspot.com 
+5) App server: 
+	Map: https://tfa-feb19.uk.r.appspot.com/map/
+	All sightings: https://tfa-feb19.uk.r.appspot.com/sightings/
+	General Stats: https://tfa-feb19.uk.r.appspot.com/sightings/stats
