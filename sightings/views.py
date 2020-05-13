@@ -11,9 +11,6 @@ def unique(request, unique_squirrel_id):
     squirrel = Sighting.objects.get(unique_squirrel_id = unique_squirrel_id)
     return render(request, 'sightings/unique.html', {'squirrel' : squirrel})
 
-def add(request):
-    return HttpResponse('add section')
-
 def stats(request): 
 	stats1=Sighting.objects.all().count() 
 	stats2=Sighting.objects.filter(age='Adult').count() 
