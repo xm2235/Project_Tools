@@ -4,16 +4,15 @@ from django.http import HttpResponse
 from .models import Sighting
 
 def index(request):
-    return HttpResponse('Project Squirrel')
+    all_sightings = Sighting.objects.all()
+    return render(request, 'sightings/index.html', {'all_sightings': all_sightings})
 
-def update(request, unique_squirrel_id):
-    return HttpResponse('update section')
+def unique(request, unique_squirrel_id):
+    squirrel = Sighting.objects.get(unique_squirrel_id = unique_squirrel_id)
+    return render(request, 'sightings/unique.html', {'squirrel' : squirrel})
 
 def add(request):
     return HttpResponse('add section')
-
-def get_stats(request):
-    return HttpResponse('stats section')
 
 def stats(request): 
 	stats1=Sighting.objects.all().count() 

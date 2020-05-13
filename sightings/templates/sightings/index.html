@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Squirrel Sightins</title>
+</head>
+<body>
+	<h1 align='center'>List of All Squirrel Sightings in Cnetral Park</h1>
+	<br>
+	<ul>
+		{% for value in all_sightings %}
+		<li>
+			ID: {{ value.unique_squirrel_id }}            Date: {{value.date}}            
+			<a href="{{ value.unique_squirrel_id }}/">View</a>
+		</li>
+		{% endfor %}
+
+
+	</ul>
+
+</body>
+</html>
