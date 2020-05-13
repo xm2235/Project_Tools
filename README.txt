@@ -1,7 +1,8 @@
 			Squirrel Tracking Website
 
-Tools for Analytics Group 10
-	Members: Xiaohang Mao, Ziyang Zhang 	UNIs: [xm2235, zz2732]
+IEOR E4501 Tools for Analytics 
+Project Group 10
+Contributors: Xiaohang Mao, Ziyang Zhang 	UNIs: [xm2235, zz2732]
 
 Description:
 	This project aims for tracking and displacing the squirrels in Central
@@ -16,13 +17,21 @@ Functions:
 2)	/sightings
 	that lists all of the squirrels in our database with dates and a link to their details.
 
-3)	/sightings/<unique_id>
+3)	/sightings/<uniqu_squirrel_id>
 	that displays more detailed information about the selected squirrel.
 
-4)	/admin		user = ToolsG10 	password = 12345	
+4)	/admin	
 	the admin page for adding/deleting/changing a new squirrel with certain attributes.
 
 5)	/sightings/stats
-	that displays the key attributes we wish to demonstrate.
+	that displays the general statistics of the whole data set we wish to demonstrate.
 
-	
+Website Links:
+
+1) Map: http://34.86.20.160/map/
+
+2) List of all sightings: http://34.86.20.160/sightings/
+
+3) Admin: http://34.86.20.160/admin/      username: ToolsG10           password: 12345
+
+4) App server: 
