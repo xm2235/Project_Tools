@@ -32,6 +32,8 @@ Website Links:
 
 2) List of all sightings: http://34.86.20.160/sightings/
 
-3) Admin: http://34.86.20.160/admin/      username: ToolsG10           password: 12345
+3) General Statistics: http://34.86.20.160/sightings/stats
 
-4) App server: https://tfa-feb19.uk.r.appspot.com 
+4) Admin: http://34.86.20.160/admin/      username: ToolsG10           password: 12345
+
+5) App server: https://tfa-feb19.uk.r.appspot.com 
