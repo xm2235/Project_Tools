@@ -28,13 +28,13 @@ Functions:
 
 Website Links:
 
-1) Map: http://34.86.20.160/map/
+1) Map: http://35.245.75.186/map
 
-2) List of all sightings: http://34.86.20.160/sightings/
+2) List of all sightings: http://35.245.75.186/sightings/
 
-3) General Statistics: http://34.86.20.160/sightings/stats
+3) General Statistics: http://35.245.75.186/sightings/stats
 
-4) Admin: http://34.86.20.160/admin/      username: ToolsG10           password: 12345
+4) Admin: http://35.245.75.186/admin/      username: ToolsG10           password: 12345
 
 5) App server: 
 	Map: https://tfa-feb19.uk.r.appspot.com/map/
